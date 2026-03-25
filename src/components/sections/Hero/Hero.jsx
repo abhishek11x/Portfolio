@@ -1,9 +1,10 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { TextPlugin } from 'gsap/TextPlugin';
 import { motion } from 'framer-motion';
-import { SiLinkedin, SiGithub, SiWhatsapp } from 'react-icons/si';
+import { SiGithub, SiWhatsapp } from 'react-icons/si';
+import { FaLinkedinIn } from 'react-icons/fa';
 import FixedMarquee from '../../ui/FixedMarquee';
 import BouncyText from '../../ui/BouncyText';
 
@@ -100,7 +101,7 @@ const Hero = () => {
                         {/* Social Icons - Below Name with gap */}
                         <div className="flex gap-4 mb-6">
                             {[
-                                { Icon: SiLinkedin, href: "https://www.linkedin.com/in/abhishek-singh089/" },
+                                { Icon: FaLinkedinIn,href: "https://www.linkedin.com/in/abhishek-singh089/" },
                                 { Icon: SiGithub, href: "https://github.com/abhishek11x" },
                                 { Icon: SiWhatsapp, href: "https://wa.me/919877851278" },
                             ].map(({ Icon, href }, i) => (

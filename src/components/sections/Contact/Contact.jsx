@@ -1,7 +1,8 @@
 ﻿import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { HiOutlineMail, HiOutlineLocationMarker } from 'react-icons/hi';
-import { SiLinkedin, SiWhatsapp, SiGithub } from 'react-icons/si';
+import { SiWhatsapp, SiGithub } from 'react-icons/si';
+import { FaLinkedinIn } from 'react-icons/fa';
 import { useFormspree } from '../../../hooks/useFormspree';
 import Button from '../../ui/Button';
 import BouncyText from '../../ui/BouncyText';
@@ -102,7 +103,7 @@ const Contact = () => {
 
                             <div className="flex items-center gap-6 group">
                                 <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-[#0A66C2] group-hover:bg-[#0A66C2] group-hover:text-white shadow-soft transition-all duration-300">
-                                    <SiLinkedin size={24} />
+                                    < FaLinkedinIn size={24} />
                                 </div>
                                 <div>
                                     <p className="text-text-secondary text-[10px] font-black uppercase tracking-widest mb-1">LinkedIn</p>

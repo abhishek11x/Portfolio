@@ -1,0 +1,110 @@
+﻿[
+  {
+    "title": "AgriBidX",
+    "description": "Built a full-stack agriculture bidding platform that connects farmers directly with consumers, eliminating middlemen and ensuring fair pricing through a transparent digital marketplace.",
+    "tech": [
+      "MERN",
+      "REST API",
+      "MONGODB"
+    ],
+    "github": "https://github.com/abhishek11x/digitals-farmers-market-bid",
+    "image": "/assets/agribidX.png",
+    "caseStudy": {
+  "problem": "Farmers often struggle to get fair prices due to middlemen, while consumers lack direct access to fresh produce at transparent rates.",
+  "constraints": [
+    "Building a transparent and user-friendly bidding workflow",
+    "Managing product listings and bid updates efficiently",
+    "Ensuring scalability for multiple users and product categories"
+  ],
+  "architecture": [
+    "React frontend with responsive UI for farmers and consumers",
+    "Node/Express backend for product management and bidding logic",
+    "MongoDB database for users, products, and bid history",
+    "REST APIs for authentication, listings, and bidding workflows"
+  ],
+  "tradeoffs": [
+    "MERN stack chosen for end-to-end full-stack development",
+    "REST APIs used for simplicity and maintainability",
+    "Focused first on core bidding and listing features before advanced marketplace modules"
+  ],
+  "results": [
+    "Direct farmer-to-consumer marketplace implemented",
+    "Transparent product listing and bidding flow created",
+    "Improved usability through a clean and scalable web interface"
+  ]
+}
+  },
+  {
+    "title": "Quick Response Coordination System",
+    "description": "Developed a real-time coordination platform designed to streamline communication, task assignment, and response tracking during emergency or critical situations.",
+    "tech": [
+      "JavaScript",
+      "HTML5",
+      "Tailwind CSS"
+    ],
+    "github": "https://github.com/abhishek11x/Quick-Response-Coordination-System",
+    "image": "/assets/qrcs.png",
+    "caseStudy": {
+  "problem": "Emergency and critical situations require a fast, organized system to coordinate teams, assign tasks, and track responses in real time.",
+  "constraints": [
+    "Handling time-sensitive coordination efficiently",
+    "Providing a clear and responsive dashboard for multiple users",
+    "Maintaining structured task and alert management"
+  ],
+  "architecture": [
+    "React frontend with dashboard-based UI for coordination workflows",
+    "Node/Express backend for alerts, task assignment, and updates",
+    "MongoDB database for incidents, users, and response records",
+    "REST APIs for task tracking, communication, and status updates"
+  ],
+  "tradeoffs": [
+    "MERN stack chosen for faster development and unified architecture",
+    "Dashboard-first design prioritized for quick decision-making",
+    "Focused on task coordination and alert management before adding advanced real-time features"
+  ],
+  "results": [
+    "Centralized coordination system for alerts and tasks developed",
+    "Improved visibility of incidents and response progress",
+    "Created a scalable foundation for emergency workflow management"
+  ]
+}
+  },
+  {
+    "title": "LexiVerse",
+    "description": "A browser-based search engine built for fast dataset search, relevance ranking, and real-time related term discovery.",
+    "tech": [
+      "JavaScript",
+      "Python",
+      "Tailwind CSS",
+      "HTML5"
+    ],
+    "github": "https://github.com/abhishek11x/LEXII",
+    "image": "/assets/LexiVerse.png",
+    "caseStudy": {
+  "problem": "Searching through massive text datasets efficiently in the browser is challenging, especially when balancing fast load times, low memory usage, and relevant search ranking.",
+  "constraints": [
+    "Handling large datasets entirely on the client side",
+    "Maintaining fast initial load performance",
+    "Providing relevant multi-word search results without backend support"
+  ],
+  "architecture": [
+    "HTML, CSS, and JavaScript frontend for browser-based interaction",
+    "JSON dataset for fast client-side access",
+    "Array-based search approach for low memory overhead",
+    "Hash Map frequency counting for related term generation",
+    "Custom relevance-based sorting for smarter search result ranking"
+  ],
+  "tradeoffs": [
+    "Initially explored a Suffix Trie for theoretical search speed, but replaced it due to poor real-world loading performance",
+    "Flat array structure was chosen for faster load times and practical usability",
+    "Client-side architecture prioritized simplicity and speed over backend complexity"
+  ],
+  "results": [
+    "Built a browser-based search engine capable of handling large datasets efficiently",
+    "Implemented intelligent multi-word search with custom relevance ranking",
+    "Added real-time related term cloud generation for improved user exploration",
+    "Delivered a fast, responsive search experience fully in the browser"
+  ]
+}
+  }
+]

@@ -1,4 +1,4 @@
-# Anuj Yadav � Portfolio
+# Abhishek Singh  Portfolio
 
 A modern, animated, and responsive developer portfolio built with React + Vite. It showcases projects, skills, certifications, DSA stats, and a Gemini-powered chatbot that answers based on portfolio data.
 
@@ -32,7 +32,7 @@ The hero section introduces the portfolio with a bold headline, animated accents
 ## Quick Start
 
 ```bash
-git clone https://github.com/anuj-yd/portfolio.git
+git clone https://github.com/abhishek11x/portfolio.git
 cd portfolio
 npm install
 npm run dev
